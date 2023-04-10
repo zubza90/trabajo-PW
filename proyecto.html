@@ -1,44 +1,43 @@
-<!DOCTYPE html>
+<!-- Tabular con 2 espacios para mejor lectura del codigo -->
+<DOCTYPE html>
 <html>
+
 <head>
 	<title>Bencant</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="htpps://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    
-				
 </head>
-<body>
-	<header>
-		<h1>Bencant</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Juegos</a></li>
-				<li><a href="#">Sobre nosotros</a></li>
-				<li class="boton_navbar">
-					<button>Registrate</button>
-					<button>Iniciar Secion</button>
-				</li>
-			</ul>
-		</nav>
-	</header>
 
+<header>
+  <h1 style="color: greenyellow;margin-top: 10px; margin-left: 10px;margin-right: 0px; display: inline;">Bencant</h1>
+  <nav>
+    <div class="barra-de-opciones">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Juegos</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li class="boton_navbar">
+          <button>Registrate</button>
+          <button>Iniciar Sesion</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<body> 
 	<main>
 		<section>
-			<h2>Juegos destacados</h2>
-			<div>
-				<div class="carousel">
-                    <div><img src="maxresdefault.jpg" alt="juego1" width="500" height="333"></div>
-                    <div><img src="mw2-reveal-meta-share.jpg" alt="juego2" width="500" height="333"></div>
-                    <div><img src="share.jpg" alt="juego3" width="500" height="300"></div>
-                    <div><img src="juegopulento.jpg" alt="juego4" width="500 " height="333"></div>
-                    <div><img src="hollowknight.jpg" alt="juego5" width="500 " height="333"></div>
-                  </div>
-                  
-				<button>comprar</button>
+			<h2 style="margin-left: 30%;color: white;">Juegos destacados</h2>
+			<div class="slider-juegos">
+				<ul>
+					<li><img src="imagenes/hollowknight.jpg" alt="Juego 1"></li>
+          <li><img src="imagenes/juegopulento.jpg" alt="Juego 2"></li>
+          <li><img src="imagenes/maxresdefault.jpg" alt="Juego 3"></li>
+          <li><img src="imagenes/mw2-reveal-meta-share.jpg" alt="Juego 4"></li>
+				</ul>
 			</div>
 		</section>
-
+                  
 		<section>
 			<h2>otros juegos</h2>
 			<ul>
@@ -63,11 +62,10 @@
 			</ul>
 		</section>
 	</main>
-    
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<footer>
-		<p>&copy; 2023 Bencant</p>
-	</footer>
 </body>
+
+<footer>
+  <p>&copy; 2023 Todos los derechos reservados a Bencant</p>
+</footer>
+
 </html>

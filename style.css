@@ -1,5 +1,5 @@
 body {
-	background-color: #f2f2f2;
+	background-color: #5e5e5e;
 	color: #333;
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -7,9 +7,9 @@ body {
 }
 
 header {
-	background-color: #333;
+	background-color: #272727;
 	color: #fff;
-	padding: 20px;
+	padding: 20px 20px 10px 20px;
 }
 
 nav ul {
@@ -77,6 +77,80 @@ button {
 button:hover {
 	background-color: black}
 
+
+/* Slider */
+.slider-juegos{
+	margin-left: 30%;
+	width: 500;
+	height: 333;
+	border-left: 100;
+	border-right: 100;
+	border-color: black;
+	overflow: hidden;
+}
+
+.slider-juegos ul{
+	display: flex;
+	animation: cambio-imagen 20s infinite alternate linear;
+	width: 400%;
+}
+
+.slider-juegos il{
+	width: 100%;
+	list-style: none;
+}
+
+.slider-juegos img{
+	width: 500;
+	height: 333;
+}
+
+@keyframes cambio-imagen{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+/* Barra de opciones */
+
+.barra-de-opciones{
+	margin-left: 25%;
+	margin-top: -30px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.barra-de-opciones li{
+	display: inline;
+}
+
+.barra-de-opciones li a:hover{
+	color: greenyellow;
+}
+
 .boton_navbar{
-	background-color: transparent;
+	margin-left: 450px;
+}
+
+.boton_navbar button{
+	margin-left: 10px;
+	background-color: greenyellow;
+	color: black;
+	cursor: pointer;
+	font-size: 18px;
+	border: none;
+	border-radius: 5%;
+}
+
+.boton_navbar button:hover{
+	background-color: white;
+	color: black;
 }
