@@ -81,8 +81,8 @@ button:hover {
 /* Slider */
 .slider-juegos{
 	margin-left: 30%;
-	width: 500;
-	height: 333;
+	width: 600;
+	height: 400;
 	border-left: 100;
 	border-right: 100;
 	border-color: black;
@@ -101,8 +101,8 @@ button:hover {
 }
 
 .slider-juegos img{
-	width: 500;
-	height: 333;
+	width: 600;
+	height: 400;
 }
 
 @keyframes cambio-imagen{
