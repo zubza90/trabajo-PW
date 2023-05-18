@@ -1,81 +1,10 @@
 body {
 	background-color: #5e5e5e;
-	color: #333;
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
-
-header {
-	background-color: #272727;
-	color: #fff;
-	padding: 20px 20px 10px 20px;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-nav ul li a {
-	color: #fff;
-	text-decoration: none;
-}
-
-main {
-	margin: 20px;
-}
-
-section {
-	margin-bottom: 40px;
-}
-
-section h2 {
-	color: #333;
-	margin-bottom: 20px;
-}
-
-section ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-section li {
-	margin-bottom: 20px;
-}
-
-section li a {
-	color: #333;
-	text-decoration: none;
-}
-
-section li a:hover {
-	color: #6fa5f5;
-}
-
-section img {
-	display: block;
-	margin-bottom: 10px;
-}
-
-button {
-	background-color: #6fa5f5;
-	border: none;
-	color: #fff;
-	cursor: pointer;
-	font-size: 18px;
-	padding: 10px 20px;
-}
-
-button:hover {
-	background-color: black}
+/* Header */
 
 
 /* Slider */
@@ -93,11 +22,12 @@ button:hover {
 	display: flex;
 	animation: cambio-imagen 20s infinite alternate linear;
 	width: 400%;
+	list-style: none;
+	padding: 0;
 }
 
 .slider-juegos il{
 	width: 100%;
-	list-style: none;
 }
 
 .slider-juegos img{
@@ -119,7 +49,25 @@ button:hover {
 	100%{margin-left: -300%;}
 }
 
-/* Barra de opciones */
+/* Header */
+.navbar{
+	background-color:#333;
+}
+
+.navbar-brand ul{
+	list-style: none; 
+	padding: 0; 
+	display: inline;
+
+}
+.navbar-toggler-icon{
+	color: greenyellow;
+}
+
+.collapse{
+	align-items: center;
+	justify-content: space-between;
+}
 
 .barra-de-opciones{
 	margin-left: 25%;
@@ -132,25 +80,29 @@ button:hover {
 	display: inline;
 }
 
-.barra-de-opciones li a:hover{
+.nav-item a:hover{
 	color: greenyellow;
 }
 
-.boton_navbar{
-	margin-left: 450px;
-}
 
-.boton_navbar button{
-	margin-left: 10px;
+.nav-item button{
+	margin: 10px;
 	background-color: greenyellow;
 	color: black;
 	cursor: pointer;
 	font-size: 18px;
 	border: none;
 	border-radius: 5%;
+	padding: 0;
+	width: 115;
+	height: 40;
 }
 
-.boton_navbar button:hover{
+.nav-item button:hover{
 	background-color: white;
 	color: black;
+}
+
+.nav-item a{
+	color: white;
 }
