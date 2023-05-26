@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Lora', serif;
+
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(/trabajo-PW/imagenes/fondo3.jpg);
+	background-image: url(/imagenes/fondo3.jpg);
 	background-size: cover;
 	color: aliceblue;
 }
