@@ -1,3 +1,5 @@
+
+ 
 // codigo login y register
 const $btnSignIn = document.querySelector('.sign-in-btn'),
       $btnSignUp =  document.querySelector('.sign-up-btn'),
@@ -10,7 +12,9 @@ document.addEventListener('click', e => {
         $signUp.classList.toggle('active')
     }
 });
-s
+
+
+
 
 
 //validacion para cuando inicie sesion ya no aparezca el boton "iniciar sesion"
