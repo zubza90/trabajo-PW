@@ -19,6 +19,7 @@ function load_header() {
           <li><a href="#popular">Juegos populares</a></li>
           <li><a href="#nuevo">Juegos nuevos</a></li>
           <li><a href="#proximamente">Proximamente</a></li>
+          <li><a href="AdmiView.html">Admi</a></li>
           <li><a href="#nosotros">Sobre nosotros</a></li>
         </ul>
       </div>
