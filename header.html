@@ -1,33 +1,39 @@
-<nav class="navbar navbar-expand-md">
-  <div class="container-fluid">  
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <a class="navbar-brand" href="#" style="margin: 0;">
-        <ul>
-          <li>
-            <img src="imagenes/joystick.png" width="35" alt="" style="margin-left: 33.3%;">
-          </li> 
-          <li>
-            <h4 style="color:greenyellow;">Bencant</h4>
-          </li>              
-        </ul>
-      </a> 
-      <ul class="navbar-nav d-flex justify-content-center align-items-center">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Juegos</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nosotros</a></li>
-        <li class="nav-item">
-          <button class="nav-boton" onclick="location.href='#'">Registrate</button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-boton" onclick="location.href='Login.html'">Iniciar Sesion</button>
-        </li>
+<head>
+</head>
+
+<script src="main.js"></script>
+
+<div class="nav container">
+  <a href="Index.html" class="logo">Bencant <span><img style="width: 50px;" src="imagenes/joystick.png" alt="Logo"></span></a>
+  <div class="nav-icons">
+    <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+    <i class="bx bxs-cart"></i>
+    <div class="menu-icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </div>
+  <div class="menu">
+    <img src="imagenes/Theknight.png" alt="hollowknight">
+    <div class="navbar">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="#popular">Juegos populares</a></li>
+        <li><a href="#nuevo">Juegos nuevos</a></li>
+        <li><a href="#proximamente">Proximamente</a></li>
+        <li><a href="#nosotros">Sobre nosotros</a></li>
       </ul>
     </div>
   </div>
-</nav>
+  <div class="notification">
+    <div class="notification-box">
+      <i class="bx bxs-check-circle"></i>
+      <p>Compra realizada con exito.</p>
+    </div>
+    <div class="notification-box box-color">
+      <i class="bx bxs-x-circle"></i>
+      <p>Error al realizar la compra.</p>
+    </div>
+  </div>
+</div>
