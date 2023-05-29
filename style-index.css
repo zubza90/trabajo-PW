@@ -273,6 +273,9 @@ header {
 	text-decoration: none;
 	padding-right: 50px;
 }
+.navbar button{
+	background: var(--main-color);
+}
 .navbar a:hover{
 	color: greenyellow;
 	font-size: 1.8rem;

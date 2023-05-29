@@ -20,6 +20,7 @@ function load_header() {
           <li><a href="#nuevo">Juegos nuevos</a></li>
           <li><a href="#proximamente">Proximamente</a></li>
           <li><a href="#nosotros">Sobre nosotros</a></li>
+          <li><a href="Login.html"><button>Iniciar Sesion</button></a></li>
         </ul>
       </div>
     </div>
