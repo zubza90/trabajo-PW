@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style-login.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+Display:wght@100;400&family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<title>Bienvenido a bencant</title>
+</head>
+<body>
+	
+	<div class="container-form sign-up">
+		<div class="welcome-back">
+			<div class="message">
+				<h2>Bienvenido a Bencant</h2>
+				<p>si ya tienes una cuenta, por favor inicia sesión aquí</p>
+				<button class="sign-up-btn">Iniciar Sesion</button>
+			</div>
+		</div>
+		<form class="formulario">
+			<h2 class="create-account">Crear una cuenta</h2>
+			<div class="iconos">
+				<div >
+					<i class='bx bxs-ghost bx-fade-right' ></i>
+				</div>
+				<div >
+					<i class='bx bx-game bx-tada bx-flip-horizontal' ></i>
+				</div>
+				
+				<div >
+					<i class='bx bx-dots-horizontal-rounded bx-fade-left' ></i>
+				</div>
+			</div>
+			<br>
+			<p class="cuenta-gratis">Crear una cuenta gratis</p>
+			<br>
+			<input type="text" placeholder="ingrese un user" required>
+			<input type="email" placeholder="ingrese un correo" required>
+			<input type="password" placeholder="ingrese una contraseña" required>
+			<a href="Index.html"><input type="button" value= "Registrarse"></a>
+		</form>
+	</div>
+	<div class="container-form sign-in">
+		<form class="formulario">
+			<h2 class="create-account">Iniciar sesion</h2>
+		
+			<div class="iconos">
+				<div >
+					<i class='bx bxs-ghost bx-fade-right' ></i>
+				</div>
+				<div>
+					<i class='bx bx-game bx-tada bx-flip-horizontal' ></i>
+				</div>
+				<div >
+					<i class='bx bx-dots-horizontal-rounded bx-fade-left' ></i>
+				</div>
+			</div>
+			<br>
+			<p class="cuenta-gratis">¿Aun no tienes cuenta?</p>
+			<br>
+			<input type="email" placeholder="ingrese un correo" required>
+			<input type="password" placeholder="ingrese una contraseña" required>
+			<!-- <<input type="checkbox" class="checkbox">Recordar</imput> -->
+			<br>
+			<a href="Index.html"><input type="button" value="Iniciar Sesion" ></a> 
+			
+
+		</form>
+		<div class="welcome-back">
+			<div class="message">
+				<h2>Bienvenido de nuevo</h2>
+				<p>si aun no tienes una cuenta, por favor registrese aquí</p>
+			<button class="sign-in-btn">Registrarse</button>
+			</div>
+		</div>
+		
+	</div>
+	<script src="validaciones.js"></script>
+</body>
+</html>
