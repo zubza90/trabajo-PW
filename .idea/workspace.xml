@@ -1,74 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d96364a8-4619-4460-b65f-aacd5239bf26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/Perfil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requerimientos.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/Requerimientos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admi/AdmiView.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/admi/AdmiView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admi/admiview.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/admi/admiview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admi/style-admiview.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/admi/style-admiview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_blasphemous.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_blasphemous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_cyberpunk.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_cyberpunk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_hollow-knight.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_hollow-knight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_resident-evil2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_resident-evil2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_resident-evil4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_resident-evil4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_sekiro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/d_sekiro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/Hollow-Knight-presentacion.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/Hollow-Knight-presentacion.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/Theknight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/Theknight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/blasphemous-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/blasphemous-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/blasphemous-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/blasphemous-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/blasphemous-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/blasphemous-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/blasphemous-v.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/blasphemous-v.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/cyberpunck-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/cyberpunck-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/cyberpunck-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/cyberpunck-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/cyberpunck-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/cyberpunck-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/cyberpunk-v.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/cyberpunk-v.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/fondo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/fondo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/hn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/hn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/hollowknight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/hollowknight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-de-usuario.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-de-usuario.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/imagen-hollow6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/imagen-hollow6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j5.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j6.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/img_j7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/img_j7.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/joystick.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/joystick.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/juegopulento.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/juegopulento.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/maxresdefault.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/mw2-reveal-meta-share.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/mw2-reveal-meta-share.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil2-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil2-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil2-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil2-v.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil2-v.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil4-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil4-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil4-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil4-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil4-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/resident-evil4-v.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/resident-evil4-v.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/sekiro-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/sekiro-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/sekiro-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/sekiro-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/sekiro-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/sekiro-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/sekiro-v.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/sekiro-v.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/share.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/imagenes/share.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/love.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-hollowknight.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/style-hollowknight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/style-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/style-login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-perfil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/style-perfil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validaciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/src/main/resources/public/validaciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_blasphemous.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_blasphemous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_cyberpunk.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_cyberpunk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_hollow-knight.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_hollow-knight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_resident-evil2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_resident-evil2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_resident-evil4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_resident-evil4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/d_sekiro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/d_sekiro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bencant/target/classes/public/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bencant/target/classes/public/style-index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jorda/OneDrive/Escritorio/Escritorio/DUOC/Programacion/html/trabajo-PW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cetecom\IdeaProjects\trabajo-PW\Bencant\src\main\resources" />
@@ -109,6 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1687908611100</updated>
       <workItem from="1687908612489" duration="223000" />
+      <workItem from="1688507748032" duration="10717000" />
+      <workItem from="1688612011277" duration="1819000" />
     </task>
     <servers />
   </component>
