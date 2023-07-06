@@ -38,3 +38,24 @@ function load_header() {
   `;
     document.getElementById("contenidoHeader").innerHTML= header;
 }
+
+function load_footer() {
+    let footer = `
+    <div class="footer">
+    <div>
+        <a href="Index.html" class="logo">Bencant <span><img style="width: 50px;" src="imagenes/joystick.png" alt="Logo"></span></a
+    </div>
+    <div class="redes">
+        <ul>
+            <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-facebook-square' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-whatsapp' ></i></a></li>
+        </ul>
+    </div>
+    <div>
+        <p>&copy; 2023 Todos los derechos reservados a Bencant</p>
+    </div>
+    </div>
+    `;
+      document.getElementById("contenidoFooter").innerHTML= footer;
+}
