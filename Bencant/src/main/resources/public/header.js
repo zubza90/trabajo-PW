@@ -18,8 +18,8 @@ function load_header() {
           <li><a href="Index.html">Home</a></li>
           <li><a href="#popular">Juegos populares</a></li>
           <li><a href="#nuevo">Juegos nuevos</a></li>
-          <li><a href="Perfil.html">Perfil</a></li>
-          <li><a href="AdmiView.html">Administracion</a></li>
+          <li><a href="#proximamente">Proximamente</a></li>
+          <li><a href="#nosotros">Sobre nosotros</a></li>
           <li><a href="Login.html"><button>Iniciar Sesion</button></a></li>
         </ul>
       </div>
