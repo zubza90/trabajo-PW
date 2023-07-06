@@ -322,7 +322,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	margin-top: 5rem;
+	margin-top: 10rem;
 }
 .home img {
 	position: absolute;
@@ -352,4 +352,31 @@ header {
 	color: var(--dark-color);
 	background: var(--text-color);
 	transition: 0.3s all linear;
+}
+
+/* footer */
+.footer{
+	background-color: black;
+	width: 100%;
+	position: absolute;
+}
+.footer p{
+	color: greenyellow;
+	font-size: 10px;
+	display: inline;
+}
+.footer .logo{
+	margin-left: 46%;
+	color: greenyellow;
+}
+.footer ul{
+	color: greenyellow;
+	margin-left: 46%;
+}
+.footer li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.footer ul a{
+	color: greenyellow;
 }
