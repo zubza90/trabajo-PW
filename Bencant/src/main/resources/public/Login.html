@@ -12,73 +12,71 @@
 	<title>Bienvenido a bencant</title>
 </head>
 <body>
-	
-	<div class="container-form sign-up">
-		<div class="welcome-back">
-			<div class="message">
-				<h2>Bienvenido a Bencant</h2>
-				<p>si ya tienes una cuenta, por favor inicia sesión aquí</p>
-				<button class="sign-up-btn">Iniciar Sesion</button>
+	<main>
+		<div class="contenedor_todo">
+			<!--Cajas de fondo-->
+			<div class="caja_trasera">
+				<div class="caja_trasera_login">
+					<h3>¿Ya tienes una cuenta?</h3>
+					<p> Inicia sesion para poder guardar tus juegos</p>
+					<button id="btn_iniciar_sesion">Iniciar Sesion</button>
+				</div>
+				<div class="caja_trasera_register">
+					<h3>¿Aun no tienes una cuenta?</h3>
+					<p> Registrate para que puedas iniciar sesion</p>
+					<button id="btn_registrarse">Registrarse</button>
+				</div>
+			</div>
+			<!--Formulario de Login y registro-->
+			<div class="contenedor_login_register">
+				<!--Login-->
+				<form action="" class="formulario_login">
+					<h2>Iniciar sesion</h2>
+					<input type="text" placeholder="Correo electronico" >
+					<input type="password"  placeholder="Contraseña" >
+					<a href="Index.html"><input type="button" value= "Iniciar sesion"></a>
+				</form>
+				<!--Registro-->
+				<form action="" class="formulario_register">
+					<h2>Registrarse</h2>
+					<input type="text" id="user" name="username" placeholder="Nombre usuario" required>
+					<input type="text" id="email" name="email" placeholder="Correo electronico" required>
+					<input type="password" id="password" name="password" placeholder="contraseña" required>
+					<input type="button" id="save" class="btn_guardar_log" value="Guardar">
+				</form>
 			</div>
 		</div>
-		<form class="formulario">
-			<h2 class="create-account">Crear una cuenta</h2>
-			<div class="iconos">
-				<div >
-					<i class='bx bxs-ghost bx-fade-right' ></i>
-				</div>
-				<div >
-					<i class='bx bx-game bx-tada bx-flip-horizontal' ></i>
-				</div>
-				
-				<div >
-					<i class='bx bx-dots-horizontal-rounded bx-fade-left' ></i>
-				</div>
-			</div>
-			<br>
-			<p class="cuenta-gratis">Crear una cuenta gratis</p>
-			<br>
-			<input type="text" placeholder="ingrese un user" required>
-			<input type="email" placeholder="ingrese un correo" required>
-			<input type="password" placeholder="ingrese una contraseña" required>
-			<a href="Index.html"><input type="button" value= "Registrarse"></a>
-		</form>
-	</div>
-	<div class="container-form sign-in">
-		<form class="formulario">
-			<h2 class="create-account">Iniciar sesion</h2>
-		
-			<div class="iconos">
-				<div >
-					<i class='bx bxs-ghost bx-fade-right' ></i>
-				</div>
-				<div>
-					<i class='bx bx-game bx-tada bx-flip-horizontal' ></i>
-				</div>
-				<div >
-					<i class='bx bx-dots-horizontal-rounded bx-fade-left' ></i>
-				</div>
-			</div>
-			<br>
-			<p class="cuenta-gratis">¿Aun no tienes cuenta?</p>
-			<br>
-			<input type="email" placeholder="ingrese un correo" required>
-			<input type="password" placeholder="ingrese una contraseña" required>
-			<!-- <<input type="checkbox" class="checkbox">Recordar</imput> -->
-			<br>
-			<a href="Index.html"><input type="button" value="Iniciar Sesion" ></a> 
-			
-
-		</form>
-		<div class="welcome-back">
-			<div class="message">
-				<h2>Bienvenido de nuevo</h2>
-				<p>si aun no tienes una cuenta, por favor registrese aquí</p>
-			<button class="sign-in-btn">Registrarse</button>
-			</div>
-		</div>
-		
-	</div>
+	</main>
 	<script src="validaciones.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script>
+	$(document).ready(function () {
+		$.ajaxSetup({
+			headers: {
+				'Accept': 'application/json',
+				'Content-Type': 'application/json'
+			}
+		});
+
+		$("#save").click(function (){
+			let data = {}
+			data.username = $("#username").val()
+			data.password = $("#password").val()
+			data.email = $("#email").val()
+			$.post(
+					"/users"
+					, JSON.stringify(data)
+					, function(json, status, jqxhr){
+						alert(status)
+					}
+					, 'json')
+		})
+	})
+</script>
 </body>
 </html>
